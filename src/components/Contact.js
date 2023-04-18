@@ -3,7 +3,7 @@ const Contact = () => {
     return (
         <div className="contact-box">
             <p >{`#contact {`}</p>
-            <p className="tab">website<span className="colon"> : </span> <span>jhonnybracho.com</span><span className="colon"> ;</span></p>
+            <p className="tab">website<span className="colon"> : </span> <span>jhonnydevb.netlify.app</span><span className="colon"> ;</span></p>
             <p className="tab">email<span className="colon"> : </span><span>jhonnydevb@gmail.com</span><span className="colon"> ;</span></p>
             <p className="tab">github<span className="colon"> : </span> <span>jdbm69</span><span className="colon"> ;</span></p>
             <p className="tab">linkedIn<span className="colon"> : </span> <span>Jhonny Bracho<span className="colon"> ;</span></span></p>
