@@ -1,0 +1,27 @@
+.contact-box {
+    padding: 20px 0 0 20px;
+    color: rgb(173, 30, 149);
+    animation: fadeIn 1s;
+    .tab {
+        padding-left: 30px;
+        color: rgb(56, 172, 218);
+    }
+    span {
+        color: rgb(212, 168, 100);
+    }
+    .colon {
+        color: white;
+    }
+    p {
+        padding-bottom: 3px;
+        letter-spacing: 1px;
+    }
+    .comment {
+        color: green;
+        padding-top: 50px;
+    }
+    svg {
+        padding: 0 5px;
+        color: white;
+    }
+}

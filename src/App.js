@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from 'react';
+import Screen from './components/Screen';
+import Welcome from './components/Welcome';
+import IconsBloq from './components/IconsBloq';
+import { BrowserRouter } from 'react-router-dom';
 
-function App() {
+const App = () => {
+  const [showScreen, setShowScreen] = useState(false);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app-box">
+      <BrowserRouter>
+        {!showScreen && <Welcome setShowScreen={setShowScreen}/>}
+        {showScreen && <Screen />}
+        <IconsBloq /> 
+      </BrowserRouter>  
     </div>
   );
 }

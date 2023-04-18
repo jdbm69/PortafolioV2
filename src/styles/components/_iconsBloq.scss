@@ -1,0 +1,18 @@
+.icons-bloq {
+    position: absolute;
+    bottom: 2%;
+    right: 2%;
+    display: flex;
+    gap: 20px;
+    color: white;
+    z-index: 1;
+    opacity: 0;
+    transition: all 1s linear;
+    svg {
+        transition: all 0.2s linear 0.2s;
+    }
+    svg:hover {
+        color: rgba(112, 12, 116, 0.726);
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,39 @@
+.skills-box {
+    color: rgb(83, 182, 228);
+    padding: 20px 0 0 20px;
+    animation: fadeIn 1s;
+    .tab {
+        padding-left: 50px;
+    }
+    .tab-dos {
+        padding-left: 100px;
+    }
+    span {
+        color: rgb(173, 30, 149);
+    }
+    #blue {
+        color: rgb(47, 103, 206);
+    }
+    #yellow {
+        color: rgb(216, 188, 95);
+    }
+    #fbd {
+        color: rgb(61, 128, 184);
+    }
+    p {
+        padding-bottom: 3px;
+        letter-spacing: 1px;
+    }
+    #colon {
+        color: white;
+    }
+    svg {
+        transform: rotate(-90deg);
+        padding: 0 5px;
+        color: white;
+    }
+    .comment {
+        color: green;
+        padding-top: 50px;
+    }
+}

@@ -1,0 +1,121 @@
+.project-box {
+    width: 450px;
+    height: 280px;
+    transition: all 0.25s linear 0.1s;
+    img {
+        width: 100%;
+        height: 100%;
+        transition: all 0.5s linear 0.1s;
+    }
+    p {
+        color: white;
+        opacity: 0;
+        transition: all 0.25s linear 0.1s;
+        text-align: center;
+        position: relative;
+        top: -60%;
+        left: 35%;
+        background-color: rgba(112, 12, 116, 0.726);
+        width: 150px;
+        height: 40px;
+        font-size: 20px;
+        padding-top: 15px;
+    }
+}
+.project-box:hover {
+    width: 500px;
+    height: 300px;
+    cursor: pointer;
+    img {
+        opacity: 0.5;
+    }
+    p {
+        opacity: 1;
+    }
+}
+.modal-project-container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.473);
+    animation: none;
+    z-index: 1000;
+    .modal-project-box {
+        background-color: rgb(233, 233, 233);
+        width: 600px;
+        height: auto;
+        animation: zoomIn 1s;
+        border-top-left-radius: 10px;
+        color: $black-color;
+        .title-box {
+            display: flex;
+            justify-content: space-between;
+            color: white;
+            align-items: center;
+            margin-bottom: 20px;
+            border-top-left-radius: 10px;
+            background-color: rgb(68, 68, 68);
+            p {
+                padding-left: 20px;
+            }
+            .close-project {
+                border: none;
+                background-color: inherit;
+                color: white;
+                padding: 5px 10px;
+                transition: all 0.2s linear 0.2s;
+            }
+            .close-project:hover {
+                background-color: red;
+            }
+        }
+        .content-box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            margin: 10px;
+            padding: 40px;
+            border-radius: 10px;
+            gap: 20px;
+            font-size: 18px;
+            background-color: rgb(99, 99, 99);
+            color: white;
+            .title {
+                font-size: 22px;
+                background-color: rgb(113, 12, 116);
+                padding: 10px 30px;
+            }
+        }
+        img {
+            width: 540px;
+            height: 280px;
+            padding-bottom: 10px;
+            padding-left: 30px;
+        }
+        .icons-box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 50px;
+            padding: 20px;
+            a {
+                transition: all 0.2s linear 0.2s;
+                color: inherit;
+            }
+            a:hover {
+                color: rgba(73, 9, 75, 0.726);
+                cursor: pointer;
+            }
+        }
+        button:hover {
+            cursor: pointer;
+        }
+    }
+}

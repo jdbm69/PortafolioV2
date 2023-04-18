@@ -1,0 +1,45 @@
+.console-box {
+    position: absolute;
+    left: 295px;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    transition: all 0.95s linear;
+    background-color: rgb(24, 23, 23);
+    border-top: 1px solid rgb(94, 94, 94);
+    padding: 10px 0 0 15px;
+    display: flex;
+    flex-direction: column;
+    animation: fadeInUp 1s;
+    gap: 20px;
+    .title-console {
+        border-bottom: 1px solid white;
+        height: 20px;
+        width: 70px;
+        p {
+            text-transform: uppercase;
+            font-size: 12px;
+            letter-spacing: 1px;
+            color: rgb(94, 94, 94);
+        }   
+    }
+    .route-input {
+        font-size: 14px;
+        color: rgb(216, 216, 216);
+        display: flex;
+        gap: 5px;
+        input {
+            background-color: inherit;
+            border: none;
+            color: rgb(231, 218, 25);
+            border-bottom: 1px solid white;
+        }
+        input:focus {
+            border: none;
+            outline: none;
+        }
+        .submit {
+            opacity: 0;
+        }
+    }
+}

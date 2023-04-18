@@ -1,0 +1,113 @@
+.visual-studio-box {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    animation: fadeInTopLeft 1.5s;
+    z-index: 2;
+    color: white;
+    background-color: rgb(19, 17, 17);
+    .nav-one {
+        background-color: rgb(68, 68, 68);
+        display: flex;
+        justify-content: space-between;
+        font-size: 13px;
+        width: 100%;
+        height: 35px;     
+        align-items: center;   
+        ul {
+            display: flex;
+            padding-left: 8px;
+            align-items: center;
+            li {
+                list-style: none;
+                padding: 3px 8px; 
+                transition: all 0.1s linear 0.1s;
+                svg {
+                    margin-top: 3px;
+                }
+            }
+            li:hover {
+                cursor: pointer;
+                border-radius: 5px;
+                background-color: rgba(255, 255, 255, 0.123);
+            }
+            img {
+                height: 20px;
+                width: 20px;
+                padding-right: 12px;
+            }
+        }
+        .close-console {
+            display: flex;
+            gap: 40px;
+            button {
+                background-color: transparent;
+                border: none;
+                color: white;
+                height: 35px;
+                width: 40px;
+                transition: all 0.2s linear 0.1s;
+            }
+            button:hover {
+                cursor: pointer;
+                background-color: red;
+            }
+            #console {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: auto;
+                gap: 10px;
+                padding: 0 8px;
+                svg {
+                    transform: rotate(-90deg);
+                }
+            }
+            #console:hover {
+                background-color: rgba(255, 255, 255, 0.123);
+            }
+        }
+    }
+    #center {
+        position: relative;
+        right: 5%;
+    }
+    .nav-dos {
+        height: 100%;
+        width: 45px;
+        background-color: rgb(46, 44, 44);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        ul {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 10px;
+            padding-left: 0;
+            li {
+                padding: 15px 0;
+                color: rgb(156, 156, 156);
+                transition: all 0.1s linear 0.1s;
+                a {
+                    color: rgb(156, 156, 156);
+                    transition: all 0.1s linear 0.1s;
+                }
+                a:hover {
+                    color: white;
+                    cursor: pointer;
+                }
+            }
+            li:hover {
+                color: white;
+                cursor: pointer;
+            }
+        }
+        .profile-config {
+            padding-bottom: 40px;
+        }
+    }
+}

@@ -1,0 +1,63 @@
+.navbar-box {
+    height: 100%;
+    width: 250px;
+    background-color: rgb(29, 27, 27);
+    position: absolute;
+    top: 35px;
+    left: -220px;
+    transition: all 1s linear;
+    z-index: -1;
+    color: rgb(201, 201, 201);
+    p {
+        text-transform: uppercase;
+        font-size: 10px;
+        padding: 10px;
+        display: flex;
+    }
+    .explorer {
+        justify-content: space-between;
+    }
+    .portafolio-arrow {
+        gap: 5px;
+        font-size: 12px;
+        transition: all 0.2s linear 0.1s;
+    }
+    .portafolio-arrow:hover {
+        cursor: pointer;
+        background-color: rgba(255, 255, 255, 0.123);
+    }
+    ul {
+        animation: fadeInLeft 1s;
+        width: 100%;
+        padding-left: 0;
+        .link {
+            display: flex;
+            gap: 5px;
+            padding: 10px 0 10px 30px;
+            img {
+                width: 20px;
+                height: 20px;
+            }
+            span {
+                font-size: 12px;
+                padding-top: 5px;
+                color: rgba(201, 201, 201, 0.411);
+            }
+        }
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+        li {
+            list-style: none;
+            transition: all 0.1s linear 0.1s;
+        }
+        li:hover {
+            cursor: pointer;
+            background-color: rgba(255, 255, 255, 0.123);
+        }
+        li.active {
+            background-color: rgba(255, 255, 255, 0.123);
+        }
+    }
+}

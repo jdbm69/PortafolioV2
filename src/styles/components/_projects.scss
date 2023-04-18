@@ -1,0 +1,10 @@
+.projects-box {
+    animation: fadeIn 1s;
+    display: flex;
+    overflow-y: auto;
+    height: 90%;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 50px 0 0 50px;
+    overflow-y: auto;
+}
