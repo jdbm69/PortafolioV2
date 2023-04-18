@@ -3,7 +3,7 @@ import ilus from '../resources/ilus.png'
 const About = () => {
 
   setTimeout(() => {
-    document.getElementById("h1").style.animation = 'lightSpeedInLeft 1s';
+    document.getElementById("h1").style.animation = 'zoomIn 1s';
     document.getElementById("h1").style.opacity = '1';
   }, 3000)
 
