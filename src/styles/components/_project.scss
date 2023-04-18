@@ -52,6 +52,7 @@
         animation: zoomIn 1s;
         border-top-left-radius: 10px;
         color: $black-color;
+        overflow-y: auto;
         .title-box {
             display: flex;
             justify-content: space-between;

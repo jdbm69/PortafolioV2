@@ -2,6 +2,8 @@
     color: rgb(83, 182, 228);
     padding: 20px 0 0 20px;
     animation: fadeIn 1s;
+    overflow-y: auto;
+    height: 90%;
     .tab {
         padding-left: 50px;
     }
