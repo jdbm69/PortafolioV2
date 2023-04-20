@@ -23,8 +23,13 @@ const VisualStudio = ({ setShowVisualStudio }) => {
 
   const handleNavBar = () => {
     if (!showNavBar) {
-      document.getElementById("nav").style.left = '45px';
-      document.getElementById("container-box").style.left = '295px';
+      if (window.screen.width <= 600) {
+        document.getElementById("nav").style.left = '25px';
+        document.getElementById("container-box").style.left = '126px';
+      } else {
+        document.getElementById("nav").style.left = '45px';
+        document.getElementById("container-box").style.left = '295px';
+      }
       if (showConsole) {
         document.getElementById("id-console").style.left = '295px';
       }

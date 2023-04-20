@@ -75,3 +75,45 @@
         text-shadow: 4px 4px 5px rgba(113, 12, 116, 0.671);
     }
 }
+
+@media only screen and (max-width: 600px) {
+    .welcome-box {
+        line-height: 10px;
+        letter-spacing: 1px;
+        font-size: 12px;
+        background-image: url('../../resources/win2.jpg');
+        .hour {
+            font-size: 50px;
+            letter-spacing: 4px;
+        }
+        button {
+            padding: 10px 20px;
+            border: 1px solid white;
+            color: white;
+            margin-top: 10px;
+            font-size: 12px;
+            gap: 10px; 
+            letter-spacing: 1px;
+            svg {
+                width: 12px;
+                height: 12px;
+            }
+        }
+        h1 {
+            letter-spacing: 1px;
+            font-size: 20px;
+            svg {
+                padding-right: 8px;
+                width: 20px;
+                height: 20px;
+            }
+        }
+    }
+    .text {
+        h2 {
+            font-size: 30px;
+            letter-spacing: 3px;
+            padding: 5px 30px;
+        }
+    }
+}

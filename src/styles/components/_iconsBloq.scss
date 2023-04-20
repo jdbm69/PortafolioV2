@@ -16,3 +16,15 @@
         cursor: pointer;
     }
 }
+
+@media only screen and (max-width: 600px) {
+    .icons-bloq {
+        bottom: 1%;
+        right: 1%;
+        gap: 10px;
+        svg {
+            width: 20px;
+            height: 20px;
+        }
+    }
+}

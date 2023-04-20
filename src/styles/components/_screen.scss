@@ -45,3 +45,24 @@
         }
     }
 }
+
+@media only screen and (max-width: 600px) {
+    .screen-box {
+        background-image: url('../../resources/win2.jpg');
+        .icons {
+            gap: 20px;
+            button {
+                width: 80px;
+                height: 50px;
+                margin: 5px;
+                padding-top: 5px;
+                .icon {
+                    p {
+                        font-size: 10px;
+                        padding-bottom: 2px;
+                    }
+                }
+            }
+        }
+    }
+}

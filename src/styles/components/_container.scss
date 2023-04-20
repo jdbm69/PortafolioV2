@@ -6,3 +6,10 @@
     height: 100%;
     transition: all 0.95s linear;
 }
+
+@media only screen and (max-width: 600px) {
+    .container-box {
+        left: 25px;
+        top: 22px;
+    }
+}
