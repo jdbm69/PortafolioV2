@@ -24,32 +24,32 @@ const VisualStudio = ({ setShowVisualStudio }) => {
   const handleNavBar = () => {
     if (!showNavBar) {
       if (window.screen.width <= 600) {
-        document.getElementById("nav").style.left = '20px';
-        document.getElementById("container-box").style.left = '100px';
+        document.getElementById("nav").style.left = '25px';
+        document.getElementById("container-box").style.left = '105px';
       } else {
-        document.getElementById("nav").style.left = '40px';
-        document.getElementById("container-box").style.left = '290px';
+        document.getElementById("nav").style.left = '45px';
+        document.getElementById("container-box").style.left = '295px';
       }
       if (showConsole) {
         if (window.screen.width <= 600) {
-          document.getElementById("id-console").style.left = '100px';
+          document.getElementById("id-console").style.left = '105px';
         } else {
-          document.getElementById("id-console").style.left = '290px';
+          document.getElementById("id-console").style.left = '295px';
         }
       }
       setShowNavBar(true);
     } else {
       document.getElementById("nav").style.left = '-220px';
       if (window.screen.width <= 600) {
-        document.getElementById("container-box").style.left = '20px';
+        document.getElementById("container-box").style.left = '25px';
       } else {
-        document.getElementById("container-box").style.left = '40px';
+        document.getElementById("container-box").style.left = '45px';
       }
       if (showConsole) {
         if (window.screen.width <= 600) {
-          document.getElementById("id-console").style.left = '20px';
+          document.getElementById("id-console").style.left = '25px';
         } else {
-          document.getElementById("id-console").style.left = '40px';
+          document.getElementById("id-console").style.left = '45px';
         }
       }
       setShowNavBar(false);
@@ -62,9 +62,9 @@ const VisualStudio = ({ setShowVisualStudio }) => {
       if (!showNavBar) {
         setTimeout(() => {
           if (window.screen.width <= 600) {
-            document.getElementById("id-console").style.left = '20px'
+            document.getElementById("id-console").style.left = '25px'
           } else {
-            document.getElementById("id-console").style.left = '40px'
+            document.getElementById("id-console").style.left = '45px'
           }
         }, 50)
       }
