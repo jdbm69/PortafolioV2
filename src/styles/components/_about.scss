@@ -79,38 +79,38 @@
 
 @media only screen and (max-width: 600px) {
     .about-box {
-        padding-left: 5px;
+        padding-left: 2px;
         padding-top: 5px;
         h1 {
             font-size: 20px;
-            letter-spacing: 1px;
+            letter-spacing: 0;
             svg {
-                padding-left: 3px;
-                padding-right: 3px;
-                width: 20px;
-                height: 20px;
+                padding-left: 2px;
+                padding-right: 2px;
+                width: 18px;
+                height: 18px;
             }
         }
         h2 {
             border-right: 2px solid rgba(112, 12, 116, 0.726);
-            width: 175px;
+            width: 150px;
             font-size: 10px;
-            letter-spacing: 1px;
-            padding-left: 20px;
+            letter-spacing: 0;
+            padding-left: 25px;
         } 
         .img-text {
             flex-wrap: wrap;
             img {
-                width: 220px;
-                height: 150px;
-                padding-left: 5px;
+                width: 200px;
+                height: 140px;
+                padding-left: 2px;
                 padding-top: 20px;
             }
             p {
-                font-size: 10px;
-                padding-left: 5px;
+                font-size: 9px;
+                padding-left: 2px;
                 padding-top: 10px;
-                width: 200px;
+                width: 180px;
             }
         }
         .hello {
@@ -118,15 +118,15 @@
         }
         .comment {
             padding-top: 40px;
-            padding-left: 10px;
+            padding-left: 2px;
             line-height: 18px;
-            font-size: 10px;
-            width: 200px;
+            font-size: 9px;
+            width: 180px;
             svg, span {
                 padding: 0 2px;
                 width: 10px;
                 height: 10px;
-                font-size: 10px;
+                font-size: 9px;
             }
         }
     }

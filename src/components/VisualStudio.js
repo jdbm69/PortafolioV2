@@ -24,8 +24,8 @@ const VisualStudio = ({ setShowVisualStudio }) => {
   const handleNavBar = () => {
     if (!showNavBar) {
       if (window.screen.width <= 600) {
-        document.getElementById("nav").style.left = '25px';
-        document.getElementById("container-box").style.left = '105px';
+        document.getElementById("nav").style.left = '20px';
+        document.getElementById("container-box").style.left = '100px';
       } else {
         document.getElementById("nav").style.left = '45px';
         document.getElementById("container-box").style.left = '295px';
