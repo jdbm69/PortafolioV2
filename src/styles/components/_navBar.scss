@@ -64,42 +64,42 @@
 
 @media only screen and (max-width: 600px) {
     .navbar-box {
-        width: 80px;
+        width: 70px;
         top: 20px;
         p {
-            font-size: 6px;
+            font-size: 4px;
             padding: 5px;
         }
         .explorer {
             svg {
-                width: 6px;
-                height: 6px;
+                width: 4px;
+                height: 4px;
             }
         }
         .portafolio-arrow {
-            gap: 2px;
-            font-size: 8px;
+            gap: 1px;
+            font-size: 5px;
             display: flex;
             align-items: center;
             svg {
-                width: 8px;
-                height: 8px;
+                width: 4px;
+                height: 4px;
             }
         }
         ul {
             .link {
-                gap: 2px;
+                gap: 1px;
                 padding: 2px 0 2px 10px;
-                font-size: 10px;
+                font-size: 5px;
                 display: flex;
                 align-items: center;
                 img {
-                    width: 10px;
-                    height: 10px;
+                    width: 7px;
+                    height: 7px;
                 }
                 span {
-                    font-size: 6px;
-                    padding-top: 3px;
+                    font-size: 4px;
+                    padding-top: 2px;
                 }
             }
         }
