@@ -43,3 +43,28 @@
         }
     }
 }
+
+@media only screen and (max-width: 600px) {
+    .console-box {
+        left: 105px;
+        height: 45px;
+        padding: 5px 0 0 10px;
+        gap: 10px;
+        .title-console {
+            width: 50px;
+            height: 12px;
+            p {
+                font-size: 8px;
+            }   
+        }
+        .route-input {
+            font-size: 8px;
+            gap: 2px;
+            input {
+                height: 8px;
+                width: 50px;
+                font-size: 8px;
+            }
+        }
+    }
+}

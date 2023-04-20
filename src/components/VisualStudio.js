@@ -25,20 +25,32 @@ const VisualStudio = ({ setShowVisualStudio }) => {
     if (!showNavBar) {
       if (window.screen.width <= 600) {
         document.getElementById("nav").style.left = '25px';
-        document.getElementById("container-box").style.left = '126px';
+        document.getElementById("container-box").style.left = '105px';
       } else {
         document.getElementById("nav").style.left = '45px';
         document.getElementById("container-box").style.left = '295px';
       }
       if (showConsole) {
-        document.getElementById("id-console").style.left = '295px';
+        if (window.screen.width <= 600) {
+          document.getElementById("id-console").style.left = '105px';
+        } else {
+          document.getElementById("id-console").style.left = '295px';
+        }
       }
       setShowNavBar(true);
     } else {
       document.getElementById("nav").style.left = '-220px';
-      document.getElementById("container-box").style.left = '45px';
+      if (window.screen.width <= 600) {
+        document.getElementById("container-box").style.left = '25px';
+      } else {
+        document.getElementById("container-box").style.left = '45px';
+      }
       if (showConsole) {
-        document.getElementById("id-console").style.left = '45px';
+        if (window.screen.width <= 600) {
+          document.getElementById("id-console").style.left = '25px';
+        } else {
+          document.getElementById("id-console").style.left = '45px';
+        }
       }
       setShowNavBar(false);
     }
@@ -49,7 +61,11 @@ const VisualStudio = ({ setShowVisualStudio }) => {
       setShowConsole(true);
       if (!showNavBar) {
         setTimeout(() => {
-          document.getElementById("id-console").style.left = '45px'
+          if (window.screen.width <= 600) {
+            document.getElementById("id-console").style.left = '25px'
+          } else {
+            document.getElementById("id-console").style.left = '45px'
+          }
         }, 50)
       }
     } else {
@@ -69,13 +85,13 @@ const VisualStudio = ({ setShowVisualStudio }) => {
       <div className="nav-one">
         <ul>
           <img src={vs} />
-          <li>File</li>
-          <li>Edit</li>
-          <li>Selection</li>
-          <li>View</li>
-          <li>Go</li>
-          <li>Run</li>
-          <li id='dots'>
+          <li className='none'>File</li>
+          <li className='none'>Edit</li>
+          <li className='none'>Selection</li>
+          <li className='none'>View</li>
+          <li className='none'>Go</li>
+          <li className='none'>Run</li>
+          <li className='none' id='dots'>
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
               <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
             </svg>
