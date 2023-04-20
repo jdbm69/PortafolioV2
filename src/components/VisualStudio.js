@@ -32,7 +32,7 @@ const VisualStudio = ({ setShowVisualStudio }) => {
       }
       if (showConsole) {
         if (window.screen.width <= 600) {
-          document.getElementById("id-console").style.left = '105px';
+          document.getElementById("id-console").style.left = '100px';
         } else {
           document.getElementById("id-console").style.left = '295px';
         }
@@ -41,13 +41,13 @@ const VisualStudio = ({ setShowVisualStudio }) => {
     } else {
       document.getElementById("nav").style.left = '-220px';
       if (window.screen.width <= 600) {
-        document.getElementById("container-box").style.left = '25px';
+        document.getElementById("container-box").style.left = '20px';
       } else {
         document.getElementById("container-box").style.left = '45px';
       }
       if (showConsole) {
         if (window.screen.width <= 600) {
-          document.getElementById("id-console").style.left = '25px';
+          document.getElementById("id-console").style.left = '20px';
         } else {
           document.getElementById("id-console").style.left = '45px';
         }
@@ -62,7 +62,7 @@ const VisualStudio = ({ setShowVisualStudio }) => {
       if (!showNavBar) {
         setTimeout(() => {
           if (window.screen.width <= 600) {
-            document.getElementById("id-console").style.left = '25px'
+            document.getElementById("id-console").style.left = '20px'
           } else {
             document.getElementById("id-console").style.left = '45px'
           }
