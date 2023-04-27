@@ -138,27 +138,27 @@
         align-items: center;
         padding-left: 20px;
         .modal-project-box {
-            width: 240px;
+            width: 250px;
             height: auto;
             .title-box {
-                margin-bottom: 10px;
+                margin-bottom: 20px;
                 .close-project {
                     padding: 2px 5px;
                 }
             }
             .content-box {
-                margin: 1px;
-                padding: 10px;
+                margin: 5px;
+                padding: 20px;
                 border-radius: 10px;
-                gap: 10px;
-                font-size: 8px;
+                gap: 15px;
+                font-size: 12px;
                 .title {
-                    font-size: 12px;
-                    padding: 5px 20px;
+                    font-size: 14px;
+                    padding: 5px 25px;
                 }
             }
             img {
-                width: 220px;
+                width: 230px;
                 height: 120px;
                 padding-bottom: 0;
                 padding-left: 10px;
@@ -167,8 +167,8 @@
                 gap: 20px;
                 padding: 10px;
                 svg {
-                    width: 20px;
-                    height: 20px;
+                    width: 30px;
+                    height: 30px;
                 }
             }
         }
