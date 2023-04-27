@@ -125,3 +125,46 @@
         }
     }
 }
+
+@media only screen and (max-width: 600px)  {
+    .modalContact-container {
+        .modalContact-box {
+            .modal-title {
+                font-size: 12px;
+                button {
+                    height: 25px;
+                    width: 30px;
+                    padding: 2px;
+                }
+            }
+            form {
+                gap: 10px;
+                padding: 20px;
+                input, textarea{
+                    font-size: 12px;
+                    padding-left: 10px;
+                    border: 1.5px solid rgb(197, 197, 197);
+                    height: 25px;
+                }
+                textarea {
+                    height: 80px;
+                }
+                .message-form {
+                    width: 300px;
+                    height: 80px;
+                    .message {
+                        font-size: 15px;
+                        gap: 10px;
+                        svg {
+                            width: 18px;
+                            height: 18px;
+                        }
+                    }
+                }
+            }
+            .contact-buttons {
+                gap: 40px;
+            }
+        }
+    }
+}
