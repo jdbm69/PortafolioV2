@@ -25,3 +25,14 @@
         color: white;
     }
 }
+
+@media only screen and (max-width: 600px) {
+    .contact-box {
+        font-size: 12px;
+        .comment {
+            padding-top: 100px;
+            width: 220px;
+            font-size: 10px;
+        }
+    }
+}

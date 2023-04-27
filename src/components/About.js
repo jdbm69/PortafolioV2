@@ -41,8 +41,8 @@ const About = () => {
       <div className='img-text'>
         <img src={ilus} id='img'/>
         <p id='p'>
-          I'm a fullstack web develper based in Caracas, Venezuela.
-          I have a lot of passion for UI effects, animations and crate user experience.
+          I'm a fullstack web developer based in Caracas, Venezuela.
+          I have a lot of passion for UI effects, animations and create user experience.
           Always looking to growth learning the new technologies, the sky is the limit.
         </p>
       </div>
