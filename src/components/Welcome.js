@@ -39,7 +39,7 @@ const Welcome = ({ setShowScreen }) => {
 
     setTimeout(() => {
         document.getElementById("text-welcome").style.opacity = '1';
-    }, 2000)
+    }, 2500)
 
     setTimeout(() => {
         document.getElementById("text-welcome").style.animation = 'zoomOutDown 1s';
