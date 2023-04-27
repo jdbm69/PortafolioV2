@@ -9,7 +9,7 @@ const About = () => {
 
   setTimeout(() => {
     document.getElementById("h2").style.opacity = '1';
-  }, 5000)
+  }, 5200)
 
   setTimeout(() => {
     document.getElementById("img").style.animation = 'rotateIn 1s';
