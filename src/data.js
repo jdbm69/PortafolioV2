@@ -3,7 +3,7 @@ export const dataProjects = [
         name: 'Fit App',
         technology: 'React, Css, Html, Node.js, Express.js, PostgreSQL',
         date: 'March 2023',
-        info: 'Version 1 of one personal project using Node and React. In the app you can Register your workouts, see al your records and your process with a chart. It have a data base with more of 30 exercises for every part of the body. Comming son version 2 with React Native',
+        info: 'Version 1 of one personal project using Node and React. In the app you can register your workouts, see all your records and your process with a chart. It have a data base with more of 30 exercises for every part of the body. Comming soon version 2 with React Native',
         img1: 'fitone',
         repository: null,
         web: null
@@ -12,7 +12,7 @@ export const dataProjects = [
         name: 'To-Do App',
         technology: 'React, Css, Html, Node.js, Express.js, PostgreSQL',
         date: 'December 2022',
-        info: 'First full-stack app using Node for the backend and React for the frontend. Log in and begin to register yours tasks',
+        info: 'First full-stack app using Node for the backend and React for the frontend. Log in and begin register your tasks',
         img1: 'todoone',
         repository: 'https://github.com/jdbm69/ToDoAppBack',
         web: 'https://todo-app-jdbm.up.railway.app'
