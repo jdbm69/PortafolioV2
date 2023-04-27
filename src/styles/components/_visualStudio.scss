@@ -147,13 +147,7 @@
                     }
                 }
                 #console {
-                    gap: 3px;
-                    padding: 0 2px;
-                    font-size: 6px;
-                    svg {
-                        width: 10px;
-                        height: 10px;
-                    }
+                    display: none;
                 }
             }
         }
