@@ -5,8 +5,8 @@ export const dataProjects = [
         date: 'March 2023',
         info: 'Version 1 of one personal project using Node and React. In the app you can register your workouts, see all your records and your process with a chart. It have a data base with more of 30 exercises for every part of the body. Comming soon version 2 with React Native',
         img1: 'fitone',
-        repository: null,
-        web: null
+        repository: 'https://github.com/jdbm69/FitAppBack',
+        web: 'https://fitapp69.up.railway.app'
     },
     {
         name: 'To-Do App',
@@ -15,7 +15,7 @@ export const dataProjects = [
         info: 'First full-stack app using Node for the backend and React for the frontend. Log in and begin register your tasks',
         img1: 'todoone',
         repository: 'https://github.com/jdbm69/ToDoAppBack',
-        web: 'https://todo-app-jdbm.up.railway.app'
+        web: 'https://todoapp69.up.railway.app'
     },
     {
         name: 'First Portafolio',
