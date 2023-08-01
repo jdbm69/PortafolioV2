@@ -4,7 +4,7 @@ export const dataProjects = [
         technology: 'Next, Sass, Node.js, PostgreSQL',
         date: 'July 2023',
         info: 'Wtach all information of movies an persons of the industry. You can save and rate your favorites movies to your account',
-        img1: 'fitone',
+        img1: 'jmdb',
         repository: 'https://github.com/jdbm69/JMDB',
         web: 'https://fitapp69.up.railway.app'
     },
