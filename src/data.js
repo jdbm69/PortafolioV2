@@ -3,10 +3,10 @@ export const dataProjects = [
         name: 'JMDB',
         technology: 'Next, Sass, Node.js, PostgreSQL',
         date: 'July 2023',
-        info: 'Wtach all information of movies an persons of the industry. You can save and rate your favorites movies to your account',
+        info: 'Watch all information of movies and persons of the industry. You can save and rate your favorites movies to your account',
         img1: 'JMDB',
         repository: 'https://github.com/jdbm69/JMDB',
-        web: 'https://fitapp69.up.railway.app'
+        web: 'https://jhonnymdb.vercel.app/'
     },
     {
         name: 'Fit App',
