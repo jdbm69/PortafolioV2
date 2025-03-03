@@ -16,6 +16,5 @@ export const dataProjects = [
         img1: 'fitone',
         repository: 'https://github.com/jdbm69/FitAppBack',
         web: 'https://jhonnymdb.vercel.app'
-    },
-    {
-]
+    }
+];
