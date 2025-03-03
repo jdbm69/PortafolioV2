@@ -1,6 +1,6 @@
 .project-box {
     width: 450px;
-    height: 280px;
+    height: 260px;
     transition: all 0.25s linear 0.1s;
     img {
         width: 100%;
@@ -17,14 +17,14 @@
         left: 35%;
         background-color: rgba(112, 12, 116, 0.726);
         width: 150px;
-        height: 40px;
-        font-size: 20px;
+        height: 30px;
+        font-size: 18px;
         padding-top: 15px;
     }
 }
 .project-box:hover {
     width: 500px;
-    height: 300px;
+    height: 280px;
     cursor: pointer;
     img {
         opacity: 0.5;
@@ -85,18 +85,18 @@
             padding: 40px;
             border-radius: 10px;
             gap: 20px;
-            font-size: 18px;
+            font-size: 16px;
             background-color: rgb(99, 99, 99);
             color: white;
             .title {
-                font-size: 22px;
+                font-size: 20px;
                 background-color: rgb(113, 12, 116);
                 padding: 10px 30px;
             }
         }
         img {
             width: 540px;
-            height: 280px;
+            height: 260px;
             padding-bottom: 10px;
             padding-left: 30px;
         }
