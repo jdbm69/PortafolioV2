@@ -11,14 +11,17 @@ const Skills = () => {
         <p className="tab-dos">Javascript<span id="colon"> ,</span></p>
         <p className="tab-dos">Typescript<span id="colon"> ,</span></p>
         <p className="tab-dos">React.js<span id="colon"> ,</span></p>
+        <p className="tab-dos">Vue.js<span id="colon"> ,</span></p>
+        <p className="tab-dos">Angular.js<span id="colon"> ,</span></p>
         <p className="tab-dos">React Native<span id="colon"> ,</span></p>
         <p className="tab-dos">Next.js</p>
         <p className="tab"><span>{`}`}<span id="colon"> ,</span></span></p>
         <p className="tab" id="fbd">backend <span id="colon"> :</span> <span>{`{`}</span></p>
         <p className="tab-dos">Node.js<span id="colon"> ,</span></p>
+        <p className="tab-dos">Php<span id="colon"> ,</span></p>
+        <p className="tab-dos">Python</p>
         <p className="tab-dos">Express.js<span id="colon"> ,</span></p>
         <p className="tab-dos">Postgresql<span id="colon"> ,</span></p>
-        <p className="tab-dos">Python</p>
         <p className="tab"><span>{`}`}<span id="colon"> ,</span></span></p>
         <p className="tab" id="fbd">design <span id="colon"> :</span> <span>{`{`}</span></p>
         <p className="tab-dos">Figma<span id="colon"> ,</span></p>
